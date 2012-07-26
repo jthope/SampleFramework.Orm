@@ -1,0 +1,111 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleFramework.Assets", "SampleFramework.Assets", "{92E9576A-2A0B-4904-8EDF-AF4AEB4C22B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External Libraries", "External Libraries", "{607504D1-5C3C-49E1-8581-770AA579F8C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleFramework.Common", "SampleFramework.Common\SampleFramework.Common.csproj", "{A1E3AC8A-6532-41B6-BCAE-17DF39C7382E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleFramework.Domain", "SampleFramework.Domain\SampleFramework.Domain.csproj", "{04309A5C-5E63-433F-9513-4C4D9699CC90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleFramework.Domain.Mappings", "SampleFramework.Domain.Mappings\SampleFramework.Domain.Mappings.csproj", "{1075F374-1512-4F15-9E85-D3AE36D71E2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleFramework.Services", "SampleFramework.Services\SampleFramework.Services.csproj", "{04BBE15D-95D1-4B8B-A2A5-17B4C26379D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleFramework.Web", "SampleFramework.Web\SampleFramework.Web.csproj", "{1DB4AEF3-4EC1-4488-AEB4-458346E9497A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NHibernate", "NHibernate", "{16FFE21E-3CBB-485A-A8FD-F3675D72A6E2}"
+	ProjectSection(SolutionItems) = preProject
+		SampleFramework.Assets\External Libraries\NHibernate\Antlr3.Runtime.dll = SampleFramework.Assets\External Libraries\NHibernate\Antlr3.Runtime.dll
+		SampleFramework.Assets\External Libraries\NHibernate\Castle.Core.dll = SampleFramework.Assets\External Libraries\NHibernate\Castle.Core.dll
+		SampleFramework.Assets\External Libraries\NHibernate\Castle.Core.pdb = SampleFramework.Assets\External Libraries\NHibernate\Castle.Core.pdb
+		SampleFramework.Assets\External Libraries\NHibernate\Castle.Core.xml = SampleFramework.Assets\External Libraries\NHibernate\Castle.Core.xml
+		SampleFramework.Assets\External Libraries\NHibernate\Castle.DynamicProxy.license.txt = SampleFramework.Assets\External Libraries\NHibernate\Castle.DynamicProxy.license.txt
+		SampleFramework.Assets\External Libraries\NHibernate\Castle.DynamicProxy2.dll = SampleFramework.Assets\External Libraries\NHibernate\Castle.DynamicProxy2.dll
+		SampleFramework.Assets\External Libraries\NHibernate\Castle.DynamicProxy2.pdb = SampleFramework.Assets\External Libraries\NHibernate\Castle.DynamicProxy2.pdb
+		SampleFramework.Assets\External Libraries\NHibernate\Castle.DynamicProxy2.xml = SampleFramework.Assets\External Libraries\NHibernate\Castle.DynamicProxy2.xml
+		SampleFramework.Assets\External Libraries\NHibernate\Castle.MicroKernel.dll = SampleFramework.Assets\External Libraries\NHibernate\Castle.MicroKernel.dll
+		SampleFramework.Assets\External Libraries\NHibernate\Castle.MicroKernel.pdb = SampleFramework.Assets\External Libraries\NHibernate\Castle.MicroKernel.pdb
+		SampleFramework.Assets\External Libraries\NHibernate\Castle.MicroKernel.xml = SampleFramework.Assets\External Libraries\NHibernate\Castle.MicroKernel.xml
+		SampleFramework.Assets\External Libraries\NHibernate\Castle.Windsor.dll = SampleFramework.Assets\External Libraries\NHibernate\Castle.Windsor.dll
+		SampleFramework.Assets\External Libraries\NHibernate\Castle.Windsor.pdb = SampleFramework.Assets\External Libraries\NHibernate\Castle.Windsor.pdb
+		SampleFramework.Assets\External Libraries\NHibernate\Castle.Windsor.xml = SampleFramework.Assets\External Libraries\NHibernate\Castle.Windsor.xml
+		SampleFramework.Assets\External Libraries\NHibernate\Db4objects.Db4o.dll = SampleFramework.Assets\External Libraries\NHibernate\Db4objects.Db4o.dll
+		SampleFramework.Assets\External Libraries\NHibernate\Db4objects.Db4o.Linq.dll = SampleFramework.Assets\External Libraries\NHibernate\Db4objects.Db4o.Linq.dll
+		SampleFramework.Assets\External Libraries\NHibernate\Db4objects.Db4o.NativeQueries.dll = SampleFramework.Assets\External Libraries\NHibernate\Db4objects.Db4o.NativeQueries.dll
+		SampleFramework.Assets\External Libraries\NHibernate\FluentNHibernate.dll = SampleFramework.Assets\External Libraries\NHibernate\FluentNHibernate.dll
+		SampleFramework.Assets\External Libraries\NHibernate\FluentNHibernate.pdb = SampleFramework.Assets\External Libraries\NHibernate\FluentNHibernate.pdb
+		SampleFramework.Assets\External Libraries\NHibernate\FluentNHibernate.XML = SampleFramework.Assets\External Libraries\NHibernate\FluentNHibernate.XML
+		SampleFramework.Assets\External Libraries\NHibernate\HibernatingRhinos.NHibernate.Profiler.Appender.dll = SampleFramework.Assets\External Libraries\NHibernate\HibernatingRhinos.NHibernate.Profiler.Appender.dll
+		SampleFramework.Assets\External Libraries\NHibernate\Iesi.Collections.dll = SampleFramework.Assets\External Libraries\NHibernate\Iesi.Collections.dll
+		SampleFramework.Assets\External Libraries\NHibernate\Iesi.Collections.license.txt = SampleFramework.Assets\External Libraries\NHibernate\Iesi.Collections.license.txt
+		SampleFramework.Assets\External Libraries\NHibernate\Iesi.Collections.pdb = SampleFramework.Assets\External Libraries\NHibernate\Iesi.Collections.pdb
+		SampleFramework.Assets\External Libraries\NHibernate\Iesi.Collections.xml = SampleFramework.Assets\External Libraries\NHibernate\Iesi.Collections.xml
+		SampleFramework.Assets\External Libraries\NHibernate\LinFu.DynamicProxy.dll = SampleFramework.Assets\External Libraries\NHibernate\LinFu.DynamicProxy.dll
+		SampleFramework.Assets\External Libraries\NHibernate\log4net.dll = SampleFramework.Assets\External Libraries\NHibernate\log4net.dll
+		SampleFramework.Assets\External Libraries\NHibernate\log4net.license.txt = SampleFramework.Assets\External Libraries\NHibernate\log4net.license.txt
+		SampleFramework.Assets\External Libraries\NHibernate\log4net.xml = SampleFramework.Assets\External Libraries\NHibernate\log4net.xml
+		SampleFramework.Assets\External Libraries\NHibernate\Microsoft.Practices.ServiceLocation.dll = SampleFramework.Assets\External Libraries\NHibernate\Microsoft.Practices.ServiceLocation.dll
+		SampleFramework.Assets\External Libraries\NHibernate\NCommon.dll = SampleFramework.Assets\External Libraries\NHibernate\NCommon.dll
+		SampleFramework.Assets\External Libraries\NHibernate\NCommon.NHibernate.dll = SampleFramework.Assets\External Libraries\NHibernate\NCommon.NHibernate.dll
+		SampleFramework.Assets\External Libraries\NHibernate\NCommon.NHibernate.pdb = SampleFramework.Assets\External Libraries\NHibernate\NCommon.NHibernate.pdb
+		SampleFramework.Assets\External Libraries\NHibernate\NCommon.pdb = SampleFramework.Assets\External Libraries\NHibernate\NCommon.pdb
+		SampleFramework.Assets\External Libraries\NHibernate\NCommon.xml = SampleFramework.Assets\External Libraries\NHibernate\NCommon.xml
+		SampleFramework.Assets\External Libraries\NHibernate\nhibernate-configuration.xsd = SampleFramework.Assets\External Libraries\NHibernate\nhibernate-configuration.xsd
+		SampleFramework.Assets\External Libraries\NHibernate\nhibernate-mapping.xsd = SampleFramework.Assets\External Libraries\NHibernate\nhibernate-mapping.xsd
+		SampleFramework.Assets\External Libraries\NHibernate\NHibernate.ByteCode.Castle.dll = SampleFramework.Assets\External Libraries\NHibernate\NHibernate.ByteCode.Castle.dll
+		SampleFramework.Assets\External Libraries\NHibernate\NHibernate.ByteCode.Castle.pdb = SampleFramework.Assets\External Libraries\NHibernate\NHibernate.ByteCode.Castle.pdb
+		SampleFramework.Assets\External Libraries\NHibernate\NHibernate.ByteCode.Castle.xml = SampleFramework.Assets\External Libraries\NHibernate\NHibernate.ByteCode.Castle.xml
+		SampleFramework.Assets\External Libraries\NHibernate\NHibernate.ByteCode.LinFu.dll = SampleFramework.Assets\External Libraries\NHibernate\NHibernate.ByteCode.LinFu.dll
+		SampleFramework.Assets\External Libraries\NHibernate\NHibernate.ByteCode.LinFu.pdb = SampleFramework.Assets\External Libraries\NHibernate\NHibernate.ByteCode.LinFu.pdb
+		SampleFramework.Assets\External Libraries\NHibernate\NHibernate.dll = SampleFramework.Assets\External Libraries\NHibernate\NHibernate.dll
+		SampleFramework.Assets\External Libraries\NHibernate\NHibernate.license.txt = SampleFramework.Assets\External Libraries\NHibernate\NHibernate.license.txt
+		SampleFramework.Assets\External Libraries\NHibernate\NHibernate.Linq.dll = SampleFramework.Assets\External Libraries\NHibernate\NHibernate.Linq.dll
+		SampleFramework.Assets\External Libraries\NHibernate\NHibernate.Linq.pdb = SampleFramework.Assets\External Libraries\NHibernate\NHibernate.Linq.pdb
+		SampleFramework.Assets\External Libraries\NHibernate\NHibernate.Linq.xml = SampleFramework.Assets\External Libraries\NHibernate\NHibernate.Linq.xml
+		SampleFramework.Assets\External Libraries\NHibernate\NHibernate.pdb = SampleFramework.Assets\External Libraries\NHibernate\NHibernate.pdb
+		SampleFramework.Assets\External Libraries\NHibernate\NHibernate.xml = SampleFramework.Assets\External Libraries\NHibernate\NHibernate.xml
+		SampleFramework.Assets\External Libraries\NHibernate\nunit.framework.dll = SampleFramework.Assets\External Libraries\NHibernate\nunit.framework.dll
+		SampleFramework.Assets\External Libraries\NHibernate\nunit.framework.xml = SampleFramework.Assets\External Libraries\NHibernate\nunit.framework.xml
+		SampleFramework.Assets\External Libraries\NHibernate\nunit.mocks.dll = SampleFramework.Assets\External Libraries\NHibernate\nunit.mocks.dll
+		SampleFramework.Assets\External Libraries\NHibernate\pnunit.framework.dll = SampleFramework.Assets\External Libraries\NHibernate\pnunit.framework.dll
+		SampleFramework.Assets\External Libraries\NHibernate\Remotion.Data.Linq.dll = SampleFramework.Assets\External Libraries\NHibernate\Remotion.Data.Linq.dll
+		SampleFramework.Assets\External Libraries\NHibernate\Rhino.Mocks.dll = SampleFramework.Assets\External Libraries\NHibernate\Rhino.Mocks.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1E3AC8A-6532-41B6-BCAE-17DF39C7382E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1E3AC8A-6532-41B6-BCAE-17DF39C7382E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1E3AC8A-6532-41B6-BCAE-17DF39C7382E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1E3AC8A-6532-41B6-BCAE-17DF39C7382E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04309A5C-5E63-433F-9513-4C4D9699CC90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04309A5C-5E63-433F-9513-4C4D9699CC90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04309A5C-5E63-433F-9513-4C4D9699CC90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04309A5C-5E63-433F-9513-4C4D9699CC90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1075F374-1512-4F15-9E85-D3AE36D71E2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1075F374-1512-4F15-9E85-D3AE36D71E2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1075F374-1512-4F15-9E85-D3AE36D71E2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1075F374-1512-4F15-9E85-D3AE36D71E2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04BBE15D-95D1-4B8B-A2A5-17B4C26379D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04BBE15D-95D1-4B8B-A2A5-17B4C26379D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04BBE15D-95D1-4B8B-A2A5-17B4C26379D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04BBE15D-95D1-4B8B-A2A5-17B4C26379D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DB4AEF3-4EC1-4488-AEB4-458346E9497A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DB4AEF3-4EC1-4488-AEB4-458346E9497A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DB4AEF3-4EC1-4488-AEB4-458346E9497A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DB4AEF3-4EC1-4488-AEB4-458346E9497A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{607504D1-5C3C-49E1-8581-770AA579F8C1} = {92E9576A-2A0B-4904-8EDF-AF4AEB4C22B4}
+		{16FFE21E-3CBB-485A-A8FD-F3675D72A6E2} = {607504D1-5C3C-49E1-8581-770AA579F8C1}
+	EndGlobalSection
+EndGlobal
